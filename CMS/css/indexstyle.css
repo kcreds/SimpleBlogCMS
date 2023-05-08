@@ -1,0 +1,42 @@
+.navbar{
+    background-color: #ffb8b1;
+    color: #993441;
+}
+.navbar-brand{
+    color: #993441;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.navbar-brand:hover{
+    color: #e72d46;
+}
+.material-icons{
+    color: #993441;
+    font-size: 40px;
+    font-weight: 900;
+}
+.material-icons:hover{
+    color: #e72d46;
+}
+.fitem{
+    color: #993441;
+    
+}
+.fitem:hover{
+    cursor:default;
+    color: #e72d46;
+}
+.tresc{
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+.btn{
+    background-color: #993441;
+    color: white;
+}
+.btn:hover{
+    background-color: #e72d46;
+    color: white;
+}

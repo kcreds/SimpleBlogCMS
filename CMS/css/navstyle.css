@@ -1,0 +1,20 @@
+.navbar{
+    background-color: #00AF3F;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    color: white;
+}
+.nav-item:hover{
+    background-color: #F96FD5;
+    transition: 0.3s;
+    
+}
+.material-icons{
+    font-size:36px
+}
+.material-icons:hover{
+    color:#F96FD5;
+}

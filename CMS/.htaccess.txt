@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^([-_0-9a-zA-Z]+)/$ page.php?menuname=$1
+RewriteRule ^([-_0-9a-zA-Z]+)$ page.php?menuname=$1

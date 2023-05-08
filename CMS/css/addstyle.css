@@ -1,0 +1,63 @@
+.buttons{
+    margin-left: 40%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+.btn{
+    margin: 3px;
+    color: white;
+    background-color: #00AF3F;
+}
+.btn:hover{
+    color: white;
+    background-color: #F96FD5;
+    transition: 0.3s;
+}
+.input-group-text{
+    color:white;
+    background-color: #00AF3F;
+    border-color: #00AF3F;
+}
+.input-group-text:hover{
+    background-color: #F96FD5;
+    border-color: #F96FD5;
+}
+.input-group-text:hover ~ .form-control, .form-select, .form-label{
+    border-color: #F96FD5;
+}
+.input-group-text:hover ~ .form-select{
+    border-color: #F96FD5;
+    background-image:
+    linear-gradient(45deg, transparent 50%, #F96FD5 60%),
+    linear-gradient(135deg, #F96FD5 40%, transparent 50%) !important;
+}
+.form-control:hover ~ .input-group-text{
+    border-color: #F96FD5;
+}
+.form-control, .form-select, .form-label{
+    border-color: #00AF3F;
+}
+.form-control:focus, .form-select:focus{
+    border-color: #F96FD5;
+    box-shadow: 0 0 0 0.2rem #f96fd477;
+}
+.form-select{
+    background-image:
+    linear-gradient(45deg, transparent 50%, #00AF3F 60%),
+    linear-gradient(135deg, #00AF3F 40%, transparent 50%) !important;
+  background-position:
+    calc(100% - 30px) 14px,
+    calc(100% - 20px) 14px,
+    100% 0;
+  background-size:
+    10px 10px,
+    10px 10px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.form-select:focus{
+    background-image:
+    linear-gradient(45deg, transparent 50%, #F96FD5 60%),
+    linear-gradient(135deg, #F96FD5 40%, transparent 50%) !important;
+}

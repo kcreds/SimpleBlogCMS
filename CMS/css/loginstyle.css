@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+.login {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 10% auto;
+}
+.login h1 {
+    text-align: center;
+    color: #00AF3F;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #00AF3F;
+    color: #ffffff;
+}
+.login form input[type="password"], .login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #00AF3F;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+   margin-top: 20px;
+    background-color: #00AF3F;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+    background-color: #F96FD5;
+    transition: background-color 0.2s;
+}
+.login form input[type="password"]:hover, .login form input[type="text"]:hover{
+    border-color: #F96FD5;
+    box-shadow: 0 0 0 0.2rem #f96fd4c0;;
+}
+.login form input[type="password"]:focus, .login form input[type="text"]:focus{
+    border-color: #F96FD5;
+    box-shadow: 0 0 0 0.2rem #f96fd4c0;;
+}
+
+
